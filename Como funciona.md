@@ -1,0 +1,13 @@
+1. **Orden de los turnos**: El programa ordena los turnos por la hora de inicio del turno.
+
+2. **Horario de inicio de colación**: El horario de inicio de colación se calcula como 4 horas después del inicio del turno, 
+pero no antes de las 13:00. Si el horario de inicio de colación calculado es más de 6 horas después del inicio del turno, 
+se ajusta para que sea exactamente 6 horas después del inicio del turno.
+
+3. **Horario de término de colación**: El horario de término de colación se calcula como 40 minutos después del horario de 
+inicio de colación.
+
+4. **Capacidad de la cafetería**: La cafetería puede albergar a un máximo de 8 personas al mismo tiempo. Si hay exactamente 8 personas 
+en la cafetería, el horario de colación de la siguiente persona se retrasa hasta que la primera persona salga de la cafetería.
+
+5. **Retraso de 10 minutos**: Cuando una persona termina su colación, la siguiente persona en la lista va a su break 10 minutos después.
